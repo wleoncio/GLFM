@@ -183,10 +183,10 @@ In order to run GLFM on your data, you need to:
         
         - Go to the cloned repo "~/GLFM/src" and unzip RcppGSLExample.zip
         
-        - In terminal run: R build RcppGSLExample (this will create a .tar.gz file, called RcppGSLExample+_$VERSION+tar.gz, 
+        - In terminal run: R CMD build RcppGSLExample (this will create a .tar.gz file, called RcppGSLExample+_$VERSION+tar.gz, 
           replace $VERSION with the name of your file)
           
-        - In terminal run: R install RcppGSLExample+_$VERSION+tar.gz
+        - In terminal run: R CMD INSTALL RcppGSLExample+_$VERSION+tar.gz
         
         - Open R and load the package: library("RcppGSLExample") 
 
